@@ -1,0 +1,10 @@
+:root{
+    /* colors */
+    --gray-color: gray;
+    --primary-color:#5454D4;
+    /* font-size */
+    --main-size: 20px;
+    /* Fonts */
+    --headers-family: "Open Sans", sans-serif;
+    --section-title-size:60px;
+}

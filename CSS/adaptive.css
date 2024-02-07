@@ -1,0 +1,93 @@
+@media all and (max-width: 1200px) {
+  .conteiner {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+  .wrapper {
+    flex-wrap: wrap;
+  }
+  .wrapper__left {
+    width: 80%;
+    margin: auto;
+  }
+  .wrapper__right img:first-child {
+    display: block;
+    margin: auto;
+  }
+}
+@media all and (max-width: 768px) {
+  .portfilio-list__item-third {
+    display: none;
+  }
+  .wrapper__right img:first-child {
+    width: 80%;
+  }
+  .services-list {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 426px) {
+  header .navigation,
+  .search {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .wrapper__left h1 {
+    font-size: 42px;
+  }
+  .wrapper__right{
+    width: 80%;
+  }
+  :root {
+    --main-size: 16px;
+    --section-title-size: 32px;
+  }
+  .right__icons {
+    width: 10%;
+  }
+  .action-btn {
+    width: 150px;
+    height: 40px;
+  }
+  .portfilio,
+  section {
+    margin-top: 30px;
+  }
+  .portfilio-list__item-second {
+    display: none;
+  }
+  .portfilio-list img {
+    width: 90%;
+  }
+  .portfilio-list div {
+    width: 90%;
+  }
+  footer .navbar,
+  .navigation {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo img {
+    width: 60%;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  .vector-3 {
+    left: -5px;
+    bottom: -7px;
+  }
+  .services {
+    margin-top: 50px;
+  }
+  .dots{
+    display: none;
+  }
+  .arrows{
+    display: flex;
+    margin-top: 30px;
+
+  }
+}
